@@ -31,6 +31,7 @@ namespace Test
         private static void R(object obj)
         {
             Console.WriteLine(Thread.CurrentThread.Name);
+            
         }
         private static void C(object obj)
         {
